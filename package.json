@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://sig1smund.github.io/goit-typescript-hw-01",
+  "homepage": "https://github.com/Sig1smund/goit-typescript-hw-01#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "web-dev-server --node-resolve --open --watch",
@@ -19,8 +19,10 @@
   "bugs": {
     "url": "https://github.com/Sig1smund/goit-typescript-hw-01/issues"
   },
-  "homepage": "https://github.com/Sig1smund/goit-typescript-hw-01#readme",
   "devDependencies": {
     "@web/dev-server": "^0.4.0"
+  },
+  "dependencies": {
+    "eslint": "^8.53.0"
   }
 }
