@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://github.com/Sig1smund/goit-typescript-hw-01#readme",
+  "homepage": "https://github.com/Sig1smund/goit-typescript-hw-01",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "web-dev-server --node-resolve --open --watch",
-    "build": "tsc",
+    "build": "cross-env NODE_ENV=production parcel build src/index.html --public-url .",
+    "deploy": "gh-pages -d dist",
     "lint:js": "eslint src/**/*.{js,jsx,ts}"
   },
   "repository": {
@@ -24,6 +25,9 @@
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
     "@web/dev-server": "^0.4.0",
-    "eslint": "^8.53.0"
+    "eslint": "^8.53.0",
+    "cross-env": "^5.2.0",
+        "gh-pages": "^1.2.0",
+        "parcel-bundler": "^1.9.7"
   }
 }
