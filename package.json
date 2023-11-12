@@ -7,7 +7,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "web-dev-server --node-resolve --open --watch",
-    "build": "cross-env NODE_ENV=production parcel build src/index.html --public-url .",
     "lint:js": "eslint src/**/*.{js,jsx,ts}"
   },
   "repository": {
