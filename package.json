@@ -6,7 +6,8 @@
   "homepage": "https://sig1smund.github.io/goit-typescript-hw-01",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "web-dev-server --node-resolve --open --watch"
+    "start": "web-dev-server --node-resolve --open --watch",
+    "lint:js": "eslint src/**/*.{js,ts}"
   },
   "repository": {
     "type": "git",

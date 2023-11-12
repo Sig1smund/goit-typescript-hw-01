@@ -1,4 +1,4 @@
-const greet: HTMLElement | null = document.querySelector('.greet');
+const greet: any = document.querySelector('.greet');
 
 
 function greeting(): void {
