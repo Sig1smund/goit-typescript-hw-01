@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "web-dev-server --node-resolve --open --watch",
-    "lint": "eslint . --ext .ts"
+    "lint:js": "eslint . --ext .ts"
   },
   "repository": {
     "type": "git",
