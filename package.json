@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "web-dev-server --node-resolve --open --watch",
-    "lint:js": "eslint src/**/*."
+    "lint:js": "eslint src/**/*.{js,jsx,ts}"
   },
   "repository": {
     "type": "git",
